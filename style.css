@@ -11,6 +11,30 @@
   font-stretch: 75% 125%;
 }
 
+@font-face {
+  font-family: 'brandon_grotesqueregular';
+  src: url('assets/fonts/brandon_reg-webfont.woff2') format('woff2'),
+       url('assets/fonts/brandon_reg-webfont.woff') format("woff2-variations");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brandon_grotesquemedium';
+  src: url('assets/fonts/brandon_med-webfont.woff2') format('woff2'),
+       url('assets/fonts/brandon_med-webfont.woff') format("woff2-variations");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'brandon_grotesquebold';
+  src: url('assets/fonts/brandon_bld-webfont.woff2') format('woff2'),
+       url('assets/fonts/brandon_bld-webfont.woff') format("woff2-variations");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --h1: 3.5rem;
   --h2: 3rem;
@@ -80,7 +104,7 @@ body.light {
 }
 
 html {
-  font-family: "Mona Sans", sans-serif;
+  font-family: 'brandon_grotesqueregular', sans-serif;
   box-sizing: border-box;
   scroll-padding-top: var(--scroll-padding);
   /* scroll-behavior: smooth; */
